@@ -10,7 +10,7 @@ law_outlawed_dissent = {
 	
 	modifier = {
 		country_authority_add = 2000
-		country_promotion_ig_attraction_mult = 5.0
+		country_bolster_ig_attraction_mult = 5.0
 		country_suppression_ig_attraction_mult = -5.0
 		country_tech_spread_mult = -1.5
 	}
