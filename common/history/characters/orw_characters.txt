@@ -1,4 +1,4 @@
-CHARACTERS = {
+﻿CHARACTERS = {
 	c:OCE ?= {
 		create_character = {
 			template = oce_leader_template

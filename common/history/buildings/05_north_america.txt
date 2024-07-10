@@ -10,7 +10,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_secular_bureaucrats" "pm_professional_bureaucrats" "pm_horizOCEal_drawer_cabinets" }
+				activate_production_methods={ "pm_secular_bureaucrats" "pm_professional_bureaucrats" "pm_horizontal_drawer_cabinets" }
 			}
 			create_building={
 				building="building_white_house"
@@ -83,7 +83,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -141,15 +141,9 @@
 				building="building_textile_mills"
 				add_ownership={
 					building={
-						type="building_textile_mills"
-						country="c:OCE"
-						levels=2
-						region="STATE_NEW_YORK"
-					}
-					building={
 						type="building_financial_district"
 						country="c:OCE"
-						levels=3
+						levels=5
 						region="STATE_NEW_YORK"
 					}
 				}
@@ -160,15 +154,9 @@
 				building="building_furniture_manufacturies"
 				add_ownership={
 					building={
-						type="building_furniture_manufacturies"
-						country="c:OCE"
-						levels=1
-						region="STATE_NEW_YORK"
-					}
-					building={
 						type="building_financial_district"
 						country="c:OCE"
-						levels=1
+						levels=2
 						region="STATE_NEW_YORK"
 					}
 				}
@@ -179,15 +167,9 @@
 				building="building_tooling_workshops"
 				add_ownership={
 					building={
-						type="building_tooling_workshops"
-						country="c:OCE"
-						levels=2
-						region="STATE_NEW_YORK"
-					}
-					building={
 						type="building_financial_district"
 						country="c:OCE"
-						levels=3
+						levels=5
 						region="STATE_NEW_YORK"
 					}
 				}
@@ -213,13 +195,7 @@
 					building={
 						type="building_wheat_farm"
 						country="c:OCE"
-						levels=1
-						region="STATE_NEW_YORK"
-					}
-					building={
-						type="building_manor_house"
-						country="c:OCE"
-						levels=1
+						levels=2
 						region="STATE_NEW_YORK"
 					}
 					building={
@@ -301,7 +277,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_arms_industry"
@@ -339,7 +315,13 @@
 					building={
 						type="building_manor_house"
 						country="c:OCE"
-						levels=5
+						levels=2
+						region="STATE_VIRGINIA"
+					}
+					building={
+						type="building_maize_farm"
+						country="c:OCE"
+						levels=3
 						region="STATE_VIRGINIA"
 					}
 				}
@@ -552,7 +534,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_lead_mine"
@@ -573,7 +555,13 @@
 					building={
 						type="building_manor_house"
 						country="c:OCE"
-						levels=2
+						levels=1
+						region="STATE_MISSOURI"
+					}
+					building={
+						type="building_maize_farm"
+						country="c:OCE"
+						levels=1
 						region="STATE_MISSOURI"
 					}
 				}
@@ -618,7 +606,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_chemical_plants"
@@ -658,7 +646,13 @@
 					building={
 						type="building_manor_house"
 						country="c:OCE"
-						levels=8
+						levels=4
+						region="STATE_INDIANA"
+					}
+					building={
+						type="building_maize_farm"
+						country="c:OCE"
+						levels=4
 						region="STATE_INDIANA"
 					}
 				}
@@ -721,7 +715,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -738,7 +732,7 @@
 				building="building_glassworks"
 				add_ownership={
 					building={
-						type="building_glassworks"
+						type="building_financial_district"
 						country="c:OCE"
 						levels=1
 						region="STATE_OHIO"
@@ -856,7 +850,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_university"
@@ -966,7 +960,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_food_industry"
@@ -987,13 +981,13 @@
 					building={
 						type="building_maize_farm"
 						country="c:OCE"
-						levels=4
+						levels=5
 						region="STATE_TENNESSEE"
 					}
 					building={
 						type="building_manor_house"
 						country="c:OCE"
-						levels=6
+						levels=5
 						region="STATE_TENNESSEE"
 					}
 				}
@@ -1058,7 +1052,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_cotton_plantation"
@@ -1079,13 +1073,13 @@
 					building={
 						type="building_maize_farm"
 						country="c:OCE"
-						levels=1
+						levels=2
 						region="STATE_MISSISSIPPI"
 					}
 					building={
 						type="building_manor_house"
 						country="c:OCE"
-						levels=3
+						levels=2
 						region="STATE_MISSISSIPPI"
 					}
 				}
@@ -1118,7 +1112,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_maize_farm"
@@ -1126,13 +1120,13 @@
 					building={
 						type="building_maize_farm"
 						country="c:OCE"
-						levels=2
+						levels=3
 						region="STATE_ALABAMA"
 					}
 					building={
 						type="building_manor_house"
 						country="c:OCE"
-						levels=4
+						levels=3
 						region="STATE_ALABAMA"
 					}
 				}
@@ -1195,7 +1189,7 @@
 		region_state:OCE={
 		}
 	}
-	s:STATE_GEOCEIA={
+	s:STATE_GEORGIA={
 		region_state:OCE={
 			create_building={
 				building="building_government_administration"
@@ -1206,7 +1200,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_maize_farm"
@@ -1214,14 +1208,14 @@
 					building={
 						type="building_maize_farm"
 						country="c:OCE"
-						levels=2
-						region="STATE_GEOCEIA"
+						levels=3
+						region="STATE_GEORGIA"
 					}
 					building={
 						type="building_manor_house"
 						country="c:OCE"
-						levels=3
-						region="STATE_GEOCEIA"
+						levels=2
+						region="STATE_GEORGIA"
 					}
 				}
 				reserves=1
@@ -1234,7 +1228,7 @@
 						type="building_livestock_ranch"
 						country="c:OCE"
 						levels=1
-						region="STATE_GEOCEIA"
+						region="STATE_GEORGIA"
 					}
 				}
 				reserves=1
@@ -1247,7 +1241,7 @@
 						type="building_manor_house"
 						country="c:OCE"
 						levels=1
-						region="STATE_GEOCEIA"
+						region="STATE_GEORGIA"
 					}
 				}
 				reserves=1
@@ -1260,7 +1254,7 @@
 						type="building_manor_house"
 						country="c:OCE"
 						levels=8
-						region="STATE_GEOCEIA"
+						region="STATE_GEORGIA"
 					}
 				}
 				reserves=1
@@ -1273,7 +1267,7 @@
 						type="building_manor_house"
 						country="c:OCE"
 						levels=3
-						region="STATE_GEOCEIA"
+						region="STATE_GEORGIA"
 					}
 				}
 				reserves=1
@@ -1333,7 +1327,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_glassworks"
@@ -1398,7 +1392,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -1439,7 +1433,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_steel_mills"
@@ -1673,7 +1667,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -1763,7 +1757,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_glassworks"
@@ -1804,7 +1798,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_iron_mine"
@@ -1843,7 +1837,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -1994,7 +1988,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -2024,7 +2018,7 @@
 			}
 		}
 	}
-	s:STATE_VERMOCE={
+	s:STATE_VERMONT={
 		region_state:OCE={
 			create_building={
 				building="building_food_industry"
@@ -2033,7 +2027,7 @@
 						type="building_food_industry"
 						country="c:OCE"
 						levels=2
-						region="STATE_VERMOCE"
+						region="STATE_VERMONT"
 					}
 				}
 				reserves=1
@@ -2046,7 +2040,7 @@
 						type="building_financial_district"
 						country="c:OCE"
 						levels=1
-						region="STATE_VERMOCE"
+						region="STATE_VERMONT"
 					}
 				}
 				reserves=1
@@ -2059,7 +2053,7 @@
 						type="building_livestock_ranch"
 						country="c:OCE"
 						levels=1
-						region="STATE_VERMOCE"
+						region="STATE_VERMONT"
 					}
 				}
 				reserves=1
@@ -2078,7 +2072,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_furniture_manufacturies"
@@ -2156,7 +2150,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_food_industry"
@@ -2203,13 +2197,13 @@
 					building={
 						type="building_manor_house"
 						country="c:OCE"
-						levels=4
+						levels=2
 						region="STATE_NORTH_CAROLINA"
 					}
 					building={
 						type="building_maize_farm"
 						country="c:OCE"
-						levels=1
+						levels=3
 						region="STATE_NORTH_CAROLINA"
 					}
 				}
@@ -2245,10 +2239,6 @@
 	s:STATE_UTAH={
 		region_state:OCE={
 		}
-		region_state:NVJ={
-		}
-		region_state:UTE={
-		}
 	}
 	s:STATE_SOUTH_CAROLINA={
 		region_state:OCE={
@@ -2261,7 +2251,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_horizOCEal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_professional_bureaucrats" "pm_secular_bureaucrats" }
 			}
 			create_building={
 				building="building_cotton_plantation"
@@ -2308,7 +2298,13 @@
 					building={
 						type="building_manor_house"
 						country="c:OCE"
-						levels=5
+						levels=2
+						region="STATE_SOUTH_CAROLINA"
+					}
+					building={
+						type="building_maize_farm"
+						country="c:OCE"
+						levels=3
 						region="STATE_SOUTH_CAROLINA"
 					}
 				}
@@ -2328,7 +2324,7 @@
 			}
 		}
 	}
-	s:STATE_OCEAIIAN_ISLANDS={
+	s:STATE_HAWAIIAN_ISLANDS={
 		region_state:OCE={
 			create_building={
 				building="building_government_administration"
@@ -2339,7 +2335,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_OCEanization" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
+				activate_production_methods={ "pm_simple_organization" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
 				building="building_sugar_plantation"
@@ -2348,7 +2344,7 @@
 						type="building_manor_house"
 						country="c:OCE"
 						levels=1
-						region="STATE_OCEAIIAN_ISLANDS"
+						region="STATE_HAWAIIAN_ISLANDS"
 					}
 				}
 				reserves=1
@@ -2361,7 +2357,7 @@
 						type="building_manor_house"
 						country="c:OCE"
 						levels=1
-						region="STATE_OCEAIIAN_ISLANDS"
+						region="STATE_HAWAIIAN_ISLANDS"
 					}
 				}
 				reserves=1
@@ -2374,7 +2370,7 @@
 						type="building_manor_house"
 						country="c:OCE"
 						levels=1
-						region="STATE_OCEAIIAN_ISLANDS"
+						region="STATE_HAWAIIAN_ISLANDS"
 					}
 				}
 				reserves=1
@@ -2387,7 +2383,7 @@
 						type="building_financial_district"
 						country="c:OCE"
 						levels=1
-						region="STATE_OCEAIIAN_ISLANDS"
+						region="STATE_HAWAIIAN_ISLANDS"
 					}
 				}
 				reserves=1
@@ -2400,7 +2396,7 @@
 						type="building_fishing_wharf"
 						country="c:OCE"
 						levels=1
-						region="STATE_OCEAIIAN_ISLANDS"
+						region="STATE_HAWAIIAN_ISLANDS"
 					}
 				}
 				reserves=1
@@ -2419,7 +2415,7 @@
 			}
 		}
 	}
-	s:STATE_OCEARIO={
+	s:STATE_ONTARIO={
 		region_state:OCE={
 			create_building={
 				building="building_logging_camp"
@@ -2443,7 +2439,7 @@
 						type="building_financial_district"
 						country="c:OCE"
 						levels=6
-						region="STATE_OCEARIO"
+						region="STATE_ONTARIO"
 					}
 				}
 				reserves=1
@@ -2456,7 +2452,7 @@
 						type="building_manor_house"
 						country="c:OCE"
 						levels=1
-						region="STATE_OCEARIO"
+						region="STATE_ONTARIO"
 					}
 				}
 				reserves=1
@@ -2469,7 +2465,7 @@
 						type="building_manor_house"
 						country="c:OCE"
 						levels=2
-						region="STATE_OCEARIO"
+						region="STATE_ONTARIO"
 					}
 				}
 				reserves=1
@@ -2482,7 +2478,7 @@
 						type="building_livestock_ranch"
 						country="c:OCE"
 						levels=1
-						region="STATE_OCEARIO"
+						region="STATE_ONTARIO"
 					}
 				}
 				reserves=1
@@ -2495,7 +2491,7 @@
 						type="building_manor_house"
 						country="c:OCE"
 						levels=1
-						region="STATE_OCEARIO"
+						region="STATE_ONTARIO"
 					}
 				}
 				reserves=1
@@ -3016,7 +3012,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_OCEanization" "pm_religious_bureaucrats" "pm_professional_bureaucrats" }
+				activate_production_methods={ "pm_simple_organization" "pm_religious_bureaucrats" "pm_professional_bureaucrats" }
 			}
 			create_building={
 				building="building_gold_mine"
@@ -3128,7 +3124,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_OCEanization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -3338,7 +3334,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_OCEanization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
 				building="building_food_industry"
@@ -3418,7 +3414,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_OCEanization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
 				building="building_maize_farm"
@@ -3472,7 +3468,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_OCEanization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
+				activate_production_methods={ "pm_simple_organization" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
 				building="building_university"

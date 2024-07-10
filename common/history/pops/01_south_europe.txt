@@ -38,7 +38,7 @@
 		}
 	}
 	s:STATE_MALTA = {
-		region_state:SIC = {
+		region_state:ASO = {
 			create_pop = {
 				culture = maltese
 				size = 117192

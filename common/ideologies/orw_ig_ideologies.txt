@@ -1,4 +1,4 @@
-ideology_inner_party = {
+﻿ideology_inner_party = {
 	icon = "gfx/interface/icons/ideology_icons/proletarian.dds"
 
 	lawgroup_free_speech = {

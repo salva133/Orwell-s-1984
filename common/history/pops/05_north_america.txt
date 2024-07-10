@@ -109,7 +109,7 @@
 		region_state:OCE = {
 			create_pop = {
 				culture = athabaskan
-				size = 19780
+				size = 12780
 			}
 			create_pop = {
 				culture = russian
@@ -117,7 +117,15 @@
 			}
 			create_pop = {
 				culture = inuit
-				size = 4968
+				size = 1968
+			}
+			create_pop = {
+				culture = athabaskan
+				size = 7000
+			}
+			create_pop = {
+				culture = inuit
+				size = 3000
 			}
 		}
 	}
@@ -161,13 +169,27 @@
 		region_state:OCE = {
 			create_pop = {
 				culture = paiute
-				size = 20000
+				size = 3000
+			}
+			create_pop = {
+				culture = yankee
+				size = 500
+			}
+			create_pop = {
+				culture = anglo_canadian
+				size = 500
 			}
 		}
 		region_state:OCE = {
 			create_pop = {
 				culture = nez_perce
 				size = 40000
+			}
+		}
+		region_state:OCE = {
+			create_pop = {
+				culture = paiute
+				size = 20000
 			}
 		}
 	}
@@ -212,24 +234,28 @@
 	s:STATE_WYOMING = {
 		region_state:OCE = {
 			create_pop = {
-				culture = paiute
-				size = 12000
-			}
-			create_pop = {
 				culture = siouan
 				size = 8000
 			}
-		}
-		region_state:OCE = {
 			create_pop = {
 				culture = siouan
 				size = 6000
 			}
-		}
-		region_state:OCE = {
 			create_pop = {
 				culture = siouan
 				size = 4000
+			}
+			create_pop = {
+				culture = paiute
+				size = 12000
+			}
+			create_pop = {
+				culture = salish
+				size = 1300
+			}
+			create_pop = {
+				culture = siouan
+				size = 6500
 			}
 		}
 	}
@@ -237,29 +263,27 @@
 		region_state:OCE = {
 			create_pop = {
 				culture = siouan
-				size = 10000
+				size = 5000
 			}
 			create_pop = {
 				culture = dakota
 				size = 2000
 			}
-		}
-		region_state:OCE = {
 			create_pop = {
 				culture = siouan
 				size = 28000
 			}
-		}
-		region_state:OCE = {
 			create_pop = {
 				culture = dakota
 				size = 6000
 			}
-		}
-		region_state:OCE = {
 			create_pop = {
 				culture = siouan
 				size = 14000
+			}
+			create_pop = {
+				culture = salish
+				size = 5500
 			}
 		}
 	}
@@ -662,7 +686,11 @@
 			}
 			create_pop = {
 				culture = muskogean
-				size = 8000
+				size = 3000
+			}
+			create_pop = {
+				culture = muskogean
+				size = 5000
 			}
 		}
 	}
@@ -1319,7 +1347,11 @@
 		region_state:OCE = {
 			create_pop = {
 				culture = paiute
-				size = 28000
+				size = 22000
+			}
+			create_pop = {
+				culture = paiute
+				size = 6000
 			}
 		}
 	}

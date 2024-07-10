@@ -1,9 +1,5 @@
-*.py
 *.bat
 *.code-workspace
-*.png
-*.jpg
-*.jpeg
 *.mp4
 
 dlc/
@@ -11,7 +7,6 @@ sound/
 soundtrack/
 fonts/
 map_data/
-_processed/
 
 
 checksum_manifest.txt
@@ -28,3 +23,4 @@ rotate_glow_mask3.tga
 save_game_analysis.txt
 settings_layout.txt
 *.code-workspace
+change_country_ownership_to_84.py

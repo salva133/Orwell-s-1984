@@ -1,4 +1,4 @@
-# The inital war state of war
+﻿# The inital war state of war
 DIPLOMATIC_PLAYS = {
 	c:EUR = {
 		# War of Europe

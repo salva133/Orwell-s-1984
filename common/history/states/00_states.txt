@@ -801,7 +801,6 @@ STATES = {
 		add_homeland = cu:mexican
 		add_homeland = cu:comanche
 		add_claim = c:OCE
-		add_claim = c:OCE
 	}
 	s:STATE_YUKON_TERRITORY = {
 		create_state = {
@@ -1872,7 +1871,6 @@ STATES = {
 		add_homeland = cu:pueblo
 		add_homeland = cu:comanche
 		add_homeland = cu:apache
-		add_claim = c:OCE
 		add_claim = c:OCE
 	}
 	s:STATE_CALIFORNIA = {
@@ -6744,7 +6742,6 @@ STATES = {
 			}
 		}
 		add_homeland = cu:kazak
-		add_homeland = cu:uighur
 		add_homeland = cu:kirgiz
 	}
 	s:STATE_JETISY = {

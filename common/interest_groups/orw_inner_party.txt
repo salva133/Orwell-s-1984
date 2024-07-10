@@ -1,4 +1,4 @@
-ig_inner_party = {
+﻿ig_inner_party = {
 	color = hsv{ 0 1 0.54 }
 	texture = "gfx/interface/icons/ig_icons/trade_unions.dds"
 	layer = "revolution_dynamic_trade_unions"

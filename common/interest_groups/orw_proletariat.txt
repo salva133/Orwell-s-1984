@@ -1,4 +1,4 @@
-ig_proletariat = {
+﻿ig_proletariat = {
 	color = hsv{ 0 0.65 1 }
 	texture = "gfx/interface/icons/ig_icons/trade_unions.dds"
 	layer = "revolution_dynamic_trade_unions"

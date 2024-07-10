@@ -76,14 +76,14 @@ types objective_types
 									layoutpolicy_horizontal = preferred
 									layoutpolicy_vertical = preferred
 									minimumsize = { 270 82 }
-									maximumsize = { 270 600 }
+									maximumsize = { 800 600 }
 									
 									widget = {
 										size = { 100% 100% }
 										
 										background = {
-											texture = "[ObjectiveType.GetBackground]"
-											fittype = centercrop
+											texture = "gfx/loadingscreens/victoria3_load_3.dds"
+											fittype = filler
 										}
 
 										widget = {

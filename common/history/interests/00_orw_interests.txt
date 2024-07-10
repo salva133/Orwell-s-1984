@@ -1,4 +1,4 @@
-INTERESTS = {
+﻿INTERESTS = {
 	c:ASO ?= {
 		add_declared_interest = region_baltic
 		add_declared_interest = region_brazil
